@@ -29,7 +29,7 @@ export default function Navbar() {
 
 
     return (
-        <nav className="font-body mr-4 md:mx-48 text-right">
+        <nav className="font-body mr-4 md:mx-48">
             <div className="flex justify-end items-center p-4 md:hidden">
                 <div id="burger">
                     <svg
@@ -54,16 +54,16 @@ export default function Navbar() {
             <ul className="hidden md:block" id="menu">
              
                 <div className="flex flex-col items-center uppercase text-purple-800 md:flex-row md:justify-between md:items-center md:p-2">
-                    <li className="hover:text-white hover:bg-purple-800 p-2 mb-2 md:mb-0 text-lg">
+                    <li className="hover:text-white hover:bg-purple-800 p-2 mb-2 md:mb-0 text-lg font-semibold">
                         <Link href="/">Home</Link>
                     </li>
-                    <li className=" hover:text-white hover:bg-purple-800 p-2 mb-2 md:mb-0 text-lg">
+                    <li className=" hover:text-white hover:bg-purple-800 p-2 mb-2 md:mb-0 text-lg font-semibold">
                         <Link href="/projects">Projects</Link>
                     </li>
-                    <li className="hover:text-white hover:bg-purple-800 p-2 mb-2 md:mb-0 text-lg">
+                    <li className="hover:text-white hover:bg-purple-800 p-2 mb-2 md:mb-0 text-lg font-semibold">
                         <Link href="/skills">Skills</Link>
                     </li>
-                    <li className="hover:text-white hover:bg-purple-800 p-2 mb-2 md:mb-0 text-lg">
+                    <li className="hover:text-white hover:bg-purple-800 p-2 mb-2 md:mb-0 text-lg font-semibold">
                         <Link href="/contact">Contact</Link>
                     </li>
                 </div>

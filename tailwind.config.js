@@ -8,8 +8,9 @@ module.exports = {
       fontFamily:{
         body:['Nunito']
       },
-      width:{
-        '80':'80vw'
+      spacing:{
+        '72':'72vw',
+        '90': '90vw'
       }
     },
   },
