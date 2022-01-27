@@ -1,8 +1,7 @@
 import Image from 'next/image'
 export default function Projects() {
     return (
-        <div>
-            <div className="font-body bg-slate-100 min-h-screen">
+            <div className="font-body bg-slate-100 min-h-screen pb-8">
                 <div className="flex flex-col items-center pt-10">
                     <h1 className="mb-6 text-3xl font-semibold">Projects</h1>
                     <p className="font-light mb-6">Take a look at what I&apos;ve been working on on.</p>
@@ -81,6 +80,5 @@ export default function Projects() {
                     </div>
                 </div>
             </div>
-        </div>
     )
 }

@@ -26,7 +26,7 @@ export default function Home() {
         <div className="flex mt-16 w-4/5 justify-around ml-12 md:ml-24">
           <div>
             <Image className="object-cover" src="/project.png" alt="Logo" width={50} height={50} />
-            <p className="mt-4 text-purple-800 text-lg font-semibold cursor-pointer">Projects</p>
+            <p className="mt-4 text-purple-800 text-lg font-semibold cursor-pointer"><Link href="/projects">Projects</Link></p>
           </div>
           <div>
             <Image className="object-cover" src="/github.png" alt="Logo" width={50} height={50} />
