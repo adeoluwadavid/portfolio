@@ -33,6 +33,10 @@ export default function Home() {
             <p className="mt-4 text-purple-800 text-lg font-semibold cursor-pointer"><a target="_blank" href="https://github.com/adeoluwadavid" rel="noreferrer">Github</a></p>
           </div>
           <div>
+            <Image className="object-cover" src="/linkedin.png" alt="Logo" width={50} height={50} />
+            <p className="mt-4 text-purple-800 text-lg font-semibold cursor-pointer"><a target="_blank" href="https://www.linkedin.com/in/davidadewole/" rel="noreferrer">LinkedIn</a></p>
+          </div>
+          <div>
             <Image className="object-cover"  src="/skills.png" alt="Logo" width={50} height={50} />
             <p className="mt-4 text-purple-800 text-lg font-semibold cursor-pointer"><Link href="/skills">Skills</Link></p>
           </div>

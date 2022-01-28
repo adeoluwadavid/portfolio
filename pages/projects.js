@@ -14,12 +14,44 @@ export default function Projects() {
                                     <div className="rounded-lg border border-solid border-purple-800 flex flex-col items-center">
                                         <Image className='object-fill' src="/Fyipe.png" alt="oneuptime" width={512} height={450} />
                                         <div className='text-xl m-3 font-semibold text-purple-800'>OneUptime</div>
-                                        <div className='font-semibold mb-3' >Added Numerous Product Features To OneUptime</div>
+                                        <div className='font-semibold mb-3' >Added Numerous Product Features To OneUptime,<br/> a devops platform and site for reliability engineering</div>
                                         <div>
                                             <Image src="/react.png" alt="react" width={50} height={50} />
                                             <Image src="/css-3.png" alt="css" width={50} height={50} />
                                             <Image src="/node-js.png" alt="node" width={50} height={50} />
                                             <Image src="/docker.png" alt="docker" width={50} height={50} />
+                                        </div>
+
+                                        <div className='bg-purple-800 w-75 text-center p-1 rounded-lg text-white mb-1 mt-1'>Visit</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div className='flex'>
+                                <a target="_blank" href="https://telescope.merklebot.com/" rel="noreferrer">
+                                    <div className="rounded-lg border border-solid border-purple-800 flex flex-col items-center">
+                                        <Image className='object-fill' src="/MerkleBot.png" alt="oneuptime" width={512} height={450} />
+                                        <div className='text-xl m-3 font-semibold text-purple-800'>Online Telescope</div>
+                                        <div className='font-semibold mb-3' >Added Numerous Product Features To Online Telescope,<br/> a cryptocurrency platform</div>
+                                        <div>
+                                            <Image src="/vuejs.png" alt="vuejs" width={50} height={50} />
+                                            <Image src="/css-3.png" alt="css" width={50} height={50} />
+                                            <Image src="/node-js.png" alt="node" width={50} height={50} />
+                                        </div>
+
+                                        <div className='bg-purple-800 w-75 text-center p-1 rounded-lg text-white mb-1 mt-1'>Visit</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div className='flex'>
+                                <a target="_blank" href="https://www.chefsteps.com/" rel="noreferrer">
+                                    <div className="rounded-lg border border-solid border-purple-800 flex flex-col items-center">
+                                        <Image className='object-fill' src="/chefsteps.png" alt="oneuptime" width={512} height={450} />
+                                        <div className='text-xl m-3 font-semibold text-purple-800'>ChefSteps</div>
+                                        <div className='font-semibold mb-3' >Added Numerous Product Features To Chefsteps,<br/> a platform to find the right cuisine</div>
+                                        <div>
+                                            <Image src="/vuejs.png" alt="vue" width={50} height={50} />
+                                            <Image src="/css-3.png" alt="css" width={50} height={50} />
+                                            <Image src="/node-js.png" alt="node" width={50} height={50} />
                                         </div>
 
                                         <div className='bg-purple-800 w-75 text-center p-1 rounded-lg text-white mb-1 mt-1'>Visit</div>
@@ -53,6 +85,22 @@ export default function Projects() {
                                             <Image src="/spring-boot.jpeg" alt="spring" width={50} height={50} />
                                             <Image src="/css-3.png" alt="css" width={50} height={50} />
 
+                                        </div>
+
+                                        <div className='bg-purple-800 w-75 text-center p-1 rounded-lg text-white mb-1 mt-1'>Visit</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div className='flex'>
+                                <a target="_blank" href="https://hackerbaylabs.com/" rel="noreferrer">
+                                    <div className="rounded-lg border border-solid border-purple-800 flex flex-col items-center">
+                                        <Image className='object-fill' src="/hblabs.png" alt="hblabs" width={512} height={450} />
+                                        <div className='text-xl m-3 font-semibold text-purple-800'>Hackerbay Labs</div>
+                                        <div className='font-semibold mb-3' >Worked on routing and external routes of this website</div>
+                                        <div>
+                                            <Image src="/html-5.png" alt="html" width={50} height={50} />
+                                            <Image src="/css-3.png" alt="css" width={50} height={50} />
+                                            <Image src="/js.png" alt="js" width={50} height={50} />
                                         </div>
 
                                         <div className='bg-purple-800 w-75 text-center p-1 rounded-lg text-white mb-1 mt-1'>Visit</div>
