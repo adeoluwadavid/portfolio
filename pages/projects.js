@@ -124,6 +124,22 @@ export default function Projects() {
                                     </div>
                                 </a>
                             </div>
+                            <div className='flex'>
+                                <a target="_blank" href="https://weather-app22.netlify.app/" rel="noreferrer">
+                                    <div className="rounded-lg border border-solid border-purple-800 flex flex-col items-center">
+                                        <Image className='object-fill' src="/weather-app.png" alt="weather-app" width={512} height={450} />
+                                        <div className='text-xl m-3 font-semibold text-purple-800'>Chat App</div>
+                                        <div className='font-semibold mb-3' >A Simple Weather Application</div>
+                                        <div>
+                                            <Image src="/react.png" alt="react" width={50} height={50} /> 
+                                            <Image src="/css-3.png" alt="css" width={50} height={50} />
+
+                                        </div>
+
+                                        <div className='bg-purple-800 w-75 text-center p-1 rounded-lg text-white mb-1 mt-1'>Visit</div>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
