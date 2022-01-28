@@ -26,8 +26,6 @@ export default function Navbar() {
 
     }, [])
 
-
-
     return (
         <nav className="font-body mr-4 md:mx-48">
             <div className="flex justify-end items-center p-4 md:hidden">
