@@ -84,7 +84,7 @@ export default function Skills() {
                 <div className='flex justify-center'>
                 <div className='w-[90vw] grid md:grid-cols-2 gap-3'>
                     <div>
-                        <div className='bg-white rounded-md p-3 text-center'>Enjoy using regular CSS, along with frameworks TailWind and Bootstrap.</div>
+                        <div className='bg-white rounded-md p-3 text-center'>Enjoy using regular CSS, along with frameworks like TailWindCss and Bootstrap.</div>
                     </div>
                     <div>
                         <div className='bg-white rounded-md p-3 text-center'>Knows how to filter data on a template, JavaScript and queryset level.</div>
