@@ -61,7 +61,7 @@ export default function Projects() {
                             <div className='flex'>
                                 <a target="_blank" href="https://britnikengineering.com/" rel="noreferrer">
                                     <div className="rounded-lg border border-solid border-purple-800 flex flex-col items-center">
-                                        <Image className='object-fill' src="/britnik.png" alt="oneuptime" width={512} height={450} />
+                                        <Image className='object-fill' src="/britnik.png" alt="britnik" width={512} height={450} />
                                         <div className='text-xl m-3 font-semibold text-purple-800'>Britnik Engineering</div>
                                         <div className='font-semibold mb-3' >A website for an Engineering Company</div>
                                         <div>
