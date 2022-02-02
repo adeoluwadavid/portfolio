@@ -6,7 +6,7 @@ export default function Layout({ children }) {
             <Head>
                 <title>David Adewole</title>
                 <meta name="description" content="Portfolio App" />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/Adewole.jpg" />
             </Head>
             <div>
                 <Navbar />
