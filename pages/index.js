@@ -10,7 +10,7 @@ export default function Home() {
             <Image className="rounded-2xl object-cover" src="/Adewole.jpg" alt="Logo" width={200} height={200} />
           </div>
           <h2 className="mb-4 text-3xl font-bold">David Adewole</h2>
-          <p className="mb-4 font-thin">Developer Portfolio</p>
+          <a target="_blank" href="https://drive.google.com/file/d/1ygrgh0zbpL24kKRfFz70ZVq0YPNEsmyq/view?usp=sharing" rel="noreferrer" className="font-bold mb-4 underline">MY RESUME</a>
           <p className="font-medium text-lg pl-3 pr-3">
             Hi I&apos;m David. I&apos;m a Nigerian developer who loves to solve
             problems through programming and learning new things.
