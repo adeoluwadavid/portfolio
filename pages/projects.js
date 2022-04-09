@@ -4,7 +4,7 @@ export default function Projects() {
             <div className="font-body bg-slate-100 min-h-screen pb-8">
                 <div className="flex flex-col items-center pt-10">
                     <h1 className="mb-6 text-3xl font-semibold">Projects</h1>
-                    <p className="font-light mb-6">Take a look at what I&apos;ve been working on on.</p>
+                    <p className="font-light mb-6">Take a look at what I&apos;ve been working on.</p>
                 </div>
                 <div className='flex justify-center'>
                     <div className='w-[90vw] md:w-[72vw] flex justify-center'>
@@ -22,6 +22,25 @@ export default function Projects() {
                                             <Image src="/css-3.png" alt="css" width={50} height={50} />
                                             <Image src="/node-js.png" alt="node" width={50} height={50} />
                                             <Image src="/docker.png" alt="docker" width={50} height={50} />
+                                        </div>
+
+                                        <div className='bg-purple-800 w-75 text-center p-1 rounded-lg text-white mb-1 mt-1'>Visit</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div className='flex'>
+                                <a target="_blank" href="https://www.forevervigorous.com/" rel="noreferrer">
+                                    <div className="rounded-lg border border-solid border-purple-800 flex flex-col items-center">
+                                        <Image className='object-fill' src="/forevervigorous.png" alt="oneuptime" width={512} height={450} />
+                                        <div className='text-xl m-3 font-semibold text-purple-800'>Forever Living Products</div>
+                                        <div className='font-semibold mb-3 text-center' >
+                                           A platform to buy Forever Living Products.
+                                        </div>
+                                        <div>
+                                            <Image src="/nextjs.png" alt="react" width={50} height={50} />
+                                            <Image src="/css-3.png" alt="css" width={50} height={50} />
+                                            <Image src="/node-js.png" alt="node" width={50} height={50} />
+                                            <Image src="/tailwind-css.png" alt="tailwind" width={50} height={50} />
                                         </div>
 
                                         <div className='bg-purple-800 w-75 text-center p-1 rounded-lg text-white mb-1 mt-1'>Visit</div>
