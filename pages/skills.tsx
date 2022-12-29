@@ -65,7 +65,7 @@ export default function Skills() {
                             <Image src="/react.png" alt="react" height={50} width={50} />
                             <div className='mt-4'>React</div>
                         </div>
-                        <div className='bg-white rounded-xl p-5  border-solid border border-purple-300 flex flex-col items-center' flex flex-col items-center>
+                        <div className='bg-white rounded-xl p-5  border-solid border border-purple-300 flex flex-col items-center'>
                             <Image src="/vuejs.png" alt="vuejs" height={50} width={50} />
                             <div className='mt-4'>Vue</div>
                         </div>
