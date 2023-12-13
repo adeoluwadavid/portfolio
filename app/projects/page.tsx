@@ -17,7 +17,7 @@ export default function Projects() {
                                         <div className='font-semibold mb-3 text-center' >
                                             Added Numerous Product Features To OneUptime, a devops platform and site for reliability engineering.
                                         </div>
-                                        <div>
+                                        <div className='flex'>
                                             <Image src="/react.png" alt="react" width={50} height={50} />
                                             <Image src="/css-3.png" alt="css" width={50} height={50} />
                                             <Image src="/node-js.png" alt="node" width={50} height={50} />
@@ -36,7 +36,7 @@ export default function Projects() {
                                         <div className='font-semibold mb-3 text-center' >
                                            A platform to buy Forever Living Products.
                                         </div>
-                                        <div>
+                                        <div className='flex'>
                                             <Image src="/nextjs.png" alt="react" width={50} height={50} />
                                             <Image src="/css-3.png" alt="css" width={50} height={50} />
                                             <Image src="/node-js.png" alt="node" width={50} height={50} />
@@ -53,7 +53,7 @@ export default function Projects() {
                                         <Image className='object-fill' src="/MerkleBot.png" alt="oneuptime" width={512} height={450} />
                                         <div className='text-xl m-3 font-semibold text-purple-800'>Online Telescope</div>
                                         <div className='font-semibold mb-3 text-center' >Added Numerous Product Features To Online Telescope, a cryptocurrency platform.</div>
-                                        <div>
+                                        <div className='flex'>
                                             <Image src="/vuejs.png" alt="vuejs" width={50} height={50} />
                                             <Image src="/css-3.png" alt="css" width={50} height={50} />
                                             <Image src="/node-js.png" alt="node" width={50} height={50} />
@@ -69,7 +69,7 @@ export default function Projects() {
                                         <Image className='object-fill' src="/chefsteps.png" alt="oneuptime" width={512} height={450} />
                                         <div className='text-xl m-3 font-semibold text-purple-800'>ChefSteps</div>
                                         <div className='font-semibold mb-3 text-center' >Added Numerous Product Features To Chefsteps, a platform to find the right cuisine.</div>
-                                        <div>
+                                        <div className='flex'>
                                             <Image src="/vuejs.png" alt="vue" width={50} height={50} />
                                             <Image src="/css-3.png" alt="css" width={50} height={50} />
                                             <Image src="/node-js.png" alt="node" width={50} height={50} />
@@ -85,7 +85,7 @@ export default function Projects() {
                                         <Image className='object-fill' src="/britnik.png" alt="britnik" width={512} height={450} />
                                         <div className='text-xl m-3 font-semibold text-purple-800'>Britnik Engineering</div>
                                         <div className='font-semibold mb-3 text-center' >A website for an Engineering Company.</div>
-                                        <div>
+                                        <div className='flex'>
                                             <Image src="/wordpress.png" alt="wordpress" width={50} height={50} />
                                             <Image src="/css-3.png" alt="css" width={50} height={50} />
 
@@ -101,7 +101,7 @@ export default function Projects() {
                                         <Image className='object-fill' src="/aspiring-moms.png" alt="oneuptime" width={512} height={450} />
                                         <div className='text-xl m-3 font-semibold text-purple-800'>Aspiring Moms</div>
                                         <div className='font-semibold mb-3 text-center' >Built this website to enable pregnant women have access to relevant info.</div>
-                                        <div>
+                                        <div className='flex'>
                                             <Image src="/react.png" alt="react" width={50} height={50} />
                                             <Image src="/spring-boot.jpeg" alt="spring" width={50} height={50} />
                                             <Image src="/css-3.png" alt="css" width={50} height={50} />
@@ -118,7 +118,7 @@ export default function Projects() {
                                         <Image className='object-fill' src="/hblabs.png" alt="hblabs" width={512} height={450} />
                                         <div className='text-xl m-3 font-semibold text-purple-800'>Hackerbay Labs</div>
                                         <div className='font-semibold mb-3 text-center' >Worked on routing and external routes of this website.</div>
-                                        <div>
+                                        <div className='flex'>
                                             <Image src="/html-5.png" alt="html" width={50} height={50} />
                                             <Image src="/css-3.png" alt="css" width={50} height={50} />
                                             <Image src="/js.png" alt="js" width={50} height={50} />
@@ -134,7 +134,7 @@ export default function Projects() {
                                         <Image className='object-fill' src="/chat-app.png" alt="oneuptime" width={512} height={450} />
                                         <div className='text-xl m-3 font-semibold text-purple-800'>Chat App</div>
                                         <div className='font-semibold mb-3 text-center' >A Group Chat Application.</div>
-                                        <div>
+                                        <div className='flex'>
                                             <Image src="/html-5.png" alt="html" width={50} height={50} />
                                             <Image src="/spring-boot.jpeg" alt="spring" width={50} height={50} />
                                             <Image src="/materialize.png" alt="materialize" width={50} height={50} />
@@ -151,7 +151,7 @@ export default function Projects() {
                                         <Image className='object-fill' src="/weather-app.png" alt="weather-app" width={512} height={450} />
                                         <div className='text-xl m-3 font-semibold text-purple-800'>Chat App</div>
                                         <div className='font-semibold mb-3 text-center' >A Simple Weather Application.</div>
-                                        <div>
+                                        <div className='flex'>
                                             <Image src="/react.png" alt="react" width={50} height={50} /> 
                                             <Image src="/css-3.png" alt="css" width={50} height={50} />
 
