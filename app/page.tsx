@@ -13,7 +13,7 @@ export default function Home() {
           <a target="_blank" href="/David_Adewole_Resume.pdf" rel="noreferrer" className="font-bold mb-4 underline">MY RESUME</a>
           <p className="font-medium text-lg pl-3 pr-3">
             Hi I&apos;m David. I&apos;m a Nigerian developer who loves to solve
-            problems through programming and learning new things.
+            problems through programming and learning new things...
           </p>
         </div>
         <div className="flex mt-16 w-4/5 justify-around ml-12 md:ml-24">
