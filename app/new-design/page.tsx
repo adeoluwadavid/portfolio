@@ -268,7 +268,7 @@ export default function NewDesign() {
                                   <div>
                                     <a
                                       className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
-                                      href="https://upstatement"
+                                      href={each.url}
                                       target="_blank"
                                       rel="noreferrer noopener"
                                       aria-label="Lead Engineer at Upstatement (opens in a new tab)"
