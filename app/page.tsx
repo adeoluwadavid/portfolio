@@ -13,7 +13,7 @@ export default function NewDesign() {
             date: "DECEMBER 2023 - PRESENT",
             position: "Senior Software Engineer",
             organization: "eHealth Africa",
-            url:"https://www.eha.ng/",
+        url: "https://ehealthafrica.org/",
             duties: [
                 `Deployed EHACare as a multi-tenant SaaS application, scaling the platform to serve multiple clinics.`,
                 `Optimized AWS SES handling of invalid emails, reducing bounced notifications by 80%.`,
@@ -28,7 +28,7 @@ export default function NewDesign() {
             date: "JUNE 2022 - NOVEMBER 2023",
             position: "Software Engineer",
             organization: "EHA Clinics",
-            url:"https://ehacare.eha.ng/",
+          url: "https://www.eha.ng/",
             duties: [
                 `Developed EHACare, including a React/Next.js dashboard enabling physicians to manage patient profiles and monitor activity, boosting productivity by 30%.`,
                 `Built EHACare Booking, streamlining clinic and clinician profile management.`,
