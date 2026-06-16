@@ -56,15 +56,6 @@ export default function Navbar() {
                     <li className="hover:text-white hover:bg-purple-800 p-2 mb-2 md:mb-0 text-lg font-semibold">
                         <Link href="/">Home</Link>
                     </li>
-                    <li className=" hover:text-white hover:bg-purple-800 p-2 mb-2 md:mb-0 text-lg font-semibold">
-                        <Link href="/projects">Projects</Link>
-                    </li>
-                    <li className="hover:text-white hover:bg-purple-800 p-2 mb-2 md:mb-0 text-lg font-semibold">
-                        <Link href="/skills">Skills</Link>
-                    </li>
-                    <li className="hover:text-white hover:bg-purple-800 p-2 mb-2 md:mb-0 text-lg font-semibold">
-                        <Link href="/contact">Contact</Link>
-                    </li>
                 </div>
 
             </ul>
