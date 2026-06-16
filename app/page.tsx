@@ -10,99 +10,71 @@ export default function NewDesign() {
         tools: string[],
     }[] = [
         {
-            date: "JUNE 2022 - PRESENT",
-            position: "Senior Fullstack Engineer",
+            date: "DECEMBER 2023 - PRESENT",
+            position: "Senior Software Engineer",
+            organization: "eHealth Africa",
+            url:"https://www.eha.ng/",
+            duties: [
+                `Deployed EHACare as a multi-tenant SaaS application, scaling the platform to serve multiple clinics.`,
+                `Optimized AWS SES handling of invalid emails, reducing bounced notifications by 80%.`,
+                `Integrated EHACare Booking with Prometheus, Grafana, and Loki for monitoring and observability.`,
+                `Led the integration of EHACare with BetterCare, enhancing medical record operations.`,
+                `Mentored junior developers, fostering professional growth.`,
+            ],
+            tools: ["TypeScript", "Python", "Next.js", "FastAPI", "GCP",
+                "AWS", "Docker", "Jest"],
+        },
+        {
+            date: "JUNE 2022 - NOVEMBER 2023",
+            position: "Software Engineer",
             organization: "EHA Clinics",
             url:"https://ehacare.eha.ng/",
             duties: [
-                `Led a team of four developers implementing new 
-            features, improving frontend and backend application 
-            performance, and fixing bugs`,
-                `Worked closely with clients and stakeholders to 
-            gather requirements, estimate effort and prioritize 
-            tasks`,
-                `launched EHACare , an application that enables 
-            physicians to manage patient profiles and monitor 
-            patient activity through a dashboard. This increased 
-            organizational productivity by over 30%.`,
-                `launched EHACare Booking , an application used to 
-            manage clinician profiles and clinic branches. This 
-            improved existing solutions due to their simplicity.`,
-                `integrated EHACare with BetterCare , a service used 
-            in many medical records.`,
-                `wrote AQL queries to perform CRUD operations on 
-            the BetterCare server.`,
-                `mentored team members, enabling them to achieve 
-            professional growth and personal goals.`
-
+                `Developed EHACare, including a React/Next.js dashboard enabling physicians to manage patient profiles and monitor activity, boosting productivity by 30%.`,
+                `Built EHACare Booking, streamlining clinic and clinician profile management.`,
+                `Integrated EHACare with BetterCare for medical record operations.`,
+                `Wrote AQL queries for CRUD operations on the BetterCare server.`,
             ],
-            tools: ["TypeScript", "ReactJs", "NextJs", "FastAPI", "BootStrap",
-                "Sass", "Concourse CI/CD", "Docker", "Jest", "React Testing Library"],
+            tools: ["TypeScript", "Python", "Next.js", "FastAPI", "GCP",
+                "AWS", "Docker", "Jest"],
         },
         {
-            date: "NOV 2020 - MAY 2022",
-            position: "Fullstack Engineer",
+            date: "NOVEMBER 2020 - MAY 2022",
+            position: "Software Engineer",
             organization: "Hackerbay Inc",
             url:"https://oneuptime.com/",
             duties: [
-                `enhanced OneUptime by improving the compatible, 
-        custom client dashboard and APIs using NodeJs, 
-        Express, and MongoDB with a microservices 
-        architecture. This improved client relations by over 
-        25%.`,
-                `migrated the existing Javascript codebase to 
-        Typescript. This makes sure that possible bugs are 
-        noticed due to type safety.`,
-                `improved our code test coverage to above 90%.`,
-                `improved automated messaging using Twilio for calls 
-        and SMS. This increased our client responsiveness by 
-        over 25%.`,
-                `Set up a pipeline to deploy Docker images for 
-        different operating system architectures.`,
-                `worked on real-time notification using a web socket`,
-                `Code review and mentoring new developers on 
-        software development practices`
+                `Improved OneUptime by building React dashboards and enhancing APIs, increasing client engagement by 25%.`,
+                `Migrated a JavaScript codebase to TypeScript, improving type safety and reducing bugs.`,
+                `Increased test coverage to 90% and optimized automated messaging with Twilio, boosting client responsiveness by 25%.`,
+                `Built a CI/CD pipeline for deploying Docker images across OS architectures.`,
             ],
-            tools: ["Typescript", "React", "NodeJs", "ExpressJs", "MongoDB",
-                "Docker", "Mocha & Chai", "Git", "Trello", "ReactJs", "Microservices",
-                "RabbitMQ"],
+            tools: ["TypeScript", "React", "Node.js", "Express", "MongoDB",
+                "Docker", "Microservices", "RabbitMQ"],
         },
 
         {
-            date: "JULY 2019 - OCTOBER 2020",
-            position: "Fullstack Engineer",
+            date: "FEBRUARY 2020 - NOVEMBER 2020",
+            position: "Software Engineer",
             organization: "Providence Research",
             url:"#",
             duties: [
-                `developed the UI for the loan application feature in 
-        Astraploris`,
-                `built a rest API for the Astrapolaris application for 
-        giving out loans to farmers.`,
-                `worked with microservices using NodeJs and 
-        RabbitMq for service-to-service communication.`,
-                `Code Reviews`,
-
+                `Built the UI and REST APIs for the Astrapolaris Loan Application, improving loan-management accessibility for farmers.`,
+                `Implemented microservices with Spring Boot and RabbitMQ, optimizing service-to-service communication.`,
             ],
-            tools: ["SpringBoot", "NodeJs", "MySql", "Git", "VueJs",
-                "Microservices", "Docker", "Git", "Heroku"],
+            tools: ["Spring Boot", "Java", "Node.js", "MySQL", "Vue.js",
+                "Docker", "Git"],
         },
 
         {
-            date: "FEBRUARY 2019 - JULY 2019",
-            position: "Fullstack Engineer",
+            date: "FEBRUARY 2018 - JANUARY 2020",
+            position: "Software Engineer (Part-time)",
             organization: "Info-Links",
             url:"#",
             duties: [
-                `developed the UI for the loan application feature in 
-          Astraploris`,
-                `built a rest API for the Astrapolaris application for 
-          giving out loans to farmers.`,
-                `worked with microservices using NodeJs and 
-          RabbitMq for service-to-service communication.`,
-                `Code Reviews`,
-
+                `Built high-performance web UIs and REST APIs, and mentored interns in software development best practices.`,
             ],
-            tools: ["React", "NodeJs", "MySQL", "Git", "Jest", "HTML", "CSS"],
+            tools: ["React", "Node.js", "MySQL", "Jest", "Git"],
         },
     ];
 
@@ -129,7 +101,7 @@ export default function NewDesign() {
                       <a href="#">David Adewole</a>
                     </h1>
                     <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
-                      Experienced software engineer
+                      Senior Software Engineer
                     </h2>
                     <p className="mt-4 max-w-xs leading-normal">
                       adeoluwadavid@gmail.com
@@ -226,13 +198,13 @@ export default function NewDesign() {
                     </div>
                     <div>
                       <p className="mb-4">
-                        Highly skilled full-stack engineer with over 5 years of
-                        experience in designing, developing, and maintaining
-                        complex web applications. Proficient in multiple
-                        programming languages and frameworks, including
-                        Javascript/Typescript, Python, NodeJs, Java, and React.
-                        I have a proven record of developing and delivering
-                        projects on time and within budget.
+                        Senior Software Engineer with 7+ years building and
+                        scaling full-stack applications across Java, TypeScript,
+                        and Python. I craft responsive, user-centric frontends
+                        with React and Next.js, and design REST APIs and
+                        microservices with Spring Boot, Node.js, and FastAPI —
+                        deploying resilient, event-driven systems on AWS and GCP,
+                        and mentoring the engineers I work with.
                       </p>
 
                       <p>
@@ -330,39 +302,6 @@ export default function NewDesign() {
                           </li>
                         ))}
                       </ol>
-                      <div className="mt-12">
-                        <a
-                          className="inline-flex items-center font-medium leading-tight text-slate-200 font-semibold text-slate-200 group"
-                          aria-label="View Full Resume"
-                          target="_blank"
-                          rel="noreferrer noopener"
-                          href="/David_Adewole_Resume.pdf"
-                        >
-                          <span>
-                            <span className="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none">
-                              View Full
-                            </span>
-                            <span className="whitespace-nowrap">
-                              <span className="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none">
-                                Resume
-                              </span>
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 20 20"
-                                fill="currentColor"
-                                className="ml-1 inline-block h-4 w-4 shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none"
-                                aria-hidden="true"
-                              >
-                                <path
-                                  fill-rule="evenodd"
-                                  d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"
-                                  clip-rule="evenodd"
-                                ></path>
-                              </svg>
-                            </span>
-                          </span>
-                        </a>
-                      </div>
                     </div>
                   </section>
                   <section
